@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* width: 375px; */
+}
+
+.container{
+    
+    margin: 0 auto;
+    width: 375px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    padding: 0 5px 10px;
+    border-bottom: 1px solid grey;
+}
+
+header img{
+    width: 127px;
+}
+
+header .profile-img{
+    width: 37px;
+    border-radius: 100%;
+}
+
+.avatar{
+    padding-left: 10px;
+    height: 67px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    line-height: 3px;
+}
+
+.avatar-icon{
+    width: 37px;
+    border-radius: 100%;
+}
+
+.post-image{
+    width: 100%;
+}
+
+.icon{
+    width: 23.3px;
+}
